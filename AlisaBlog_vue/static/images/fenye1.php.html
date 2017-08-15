@@ -1,0 +1,59 @@
+
+<!-- saved from url=(0035)http://localhost/phptest/fenye1.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><br><b>Warning</b>:  include(conn.php): failed to open stream: No such file or directory in <b>/Applications/XAMPP/xamppfiles/htdocs/phptest/fenye1.php</b> on line <b>28</b><br><br><b>Warning</b>:  include(): Failed opening 'conn.php' for inclusion (include_path='.:') in <b>/Applications/XAMPP/xamppfiles/htdocs/phptest/fenye1.php</b> on line <b>28</b><br><br><b>Warning</b>:  mysqli_query() expects parameter 1 to be mysqli, null given in <b>/Applications/XAMPP/xamppfiles/htdocs/phptest/fenye1.php</b> on line <b>39</b><br><br><b>Warning</b>:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in <b>/Applications/XAMPP/xamppfiles/htdocs/phptest/fenye1.php</b> on line <b>42</b><br><table border="1" cellspacing="0" width="500">
+	<tbody><tr>
+		<th>ID</th>
+		<th>NAME</th>
+	</tr>
+
+
+
+
+
+
+
+
+</tbody></table>
+
+<br>
+<b>Warning</b>:  mysqli_query() expects parameter 1 to be mysqli, null given in <b>/Applications/XAMPP/xamppfiles/htdocs/phptest/fenye1.php</b> on line <b>59</b><br>
+<br>
+<b>Warning</b>:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in <b>/Applications/XAMPP/xamppfiles/htdocs/phptest/fenye1.php</b> on line <b>60</b><br>
+<a href="http://localhost/phptest/fenye1.php?p=1">首页</a><a href="javascript:void(0)" disabled="true" style="opacity: 0.2">上一页</a><a href="javascript:void(0)" disabled="true" style="opacity: 0.2">下一页</a><a href="http://localhost/phptest/fenye1.php?p=0">末页</a>
+
+每页的内容
+1:通过$_GET['p'] 获取到页数  页数&lt;=0   页数 大于 总页数
+
+2:当前页的第一个索引是几  ($page-1)*$pagenum
+
+3:select * from fenye limit (($page-1)*$pagenum),$pagenum
+
+----------------------------------------------------------
+分页A标签条码
+1：总条数  count(*)  
+2:总页数 ceil(总条数/$pagenum)
+3:显示的标签数 $pageshow
+4:显示偏移量 $pageoffset=($pageshow-1)/2
+5:判断条件  $page大于$pageoffset+1  $page大于$pageoffset 
+         $page小于$pageoffset  $page+$pageoffset大于count(*)
+         //$page_all&gt;$showpage &amp;&amp; $page_all&gt;$page+$pageoffset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>

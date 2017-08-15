@@ -1,0 +1,32 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+}
+body{
+     background: #8d9095;
+}
+.page{
+    width:66rem;
+    height:250rem;
+    position: relative;
+    left:50%;
+    margin-left:-33rem;
+    background: #fff;
+
+}
+.wrapper{
+    padding: 0 30px;
+    /*background: pink;*/
+    display: flex;
+    height:100%;
+    align-items: center;
+    margin:0 auto;
+    position: relative;
+}

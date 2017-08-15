@@ -1,0 +1,190 @@
+*{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #8d9095;;
+}
+#page{
+    width:66rem;
+    height:150rem;
+    position: relative;
+    left:50%;
+    margin-left:-33rem;
+    background: #fff;
+
+}
+#header {
+    height: 124px;
+    position: relative;
+
+    /*display: none;*/
+}
+#header:after{
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0,.1);
+    top:124px;
+    height:1px;
+    width:100%;
+
+}
+.wrapper{
+    padding: 0 30px;
+    /*background: pink;*/
+    display: flex;
+    height:100%;
+    align-items: center;
+    margin:0 auto;
+    position: relative;
+}
+#header .logo{
+    float: left;
+    flex:1;
+    -webkit-box-flex: 1;
+
+}
+#header .logo img{
+    width: 4rem;
+    float: left;
+    margin-right: 15px;
+
+}
+#header .logo p{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+#header .logo .alisa{
+    margin-top:18px;
+}
+#header .headNav{
+    flex:2;
+    margin:0 auto;
+    position: relative;
+
+
+}
+#header .headNav ul{
+
+    width:340px;
+    height:38px;
+    line-height:38px;
+}
+#header .headNav ul:before,#header .headNav ul:after{
+    content:'';
+    position: absolute;
+    background: rgba(0,0,0,.2);
+    height:1px;
+    width:370px;
+
+}
+#header .headNav ul:before{
+    top:0px;
+
+}
+#header .headNav ul:after{
+    top:38px;
+    left: 0px;
+}
+#header .headNav li{
+    float: left;
+    margin-right:68px;
+}
+#header .headNav li:first-child{
+    margin-left: 45px;
+}
+#header .headNav li:last-child{
+    margin-right: 0px;
+}
+#header .headSearch{
+    flex:1;
+    float: right;
+    /*margin-right: 20px;*/
+    position: relative;
+}
+#header .headSearch input{
+    width:145px;
+    height:25px;
+    padding:5px 10px;
+    border-top:1px solid #000000;
+    border-left:1px solid #000000;
+    border-bottom:1px solid #000000;
+}
+#header .headSearch .image{
+    width: 36px;
+    height: 36px;
+    background: #666;
+    position: absolute;
+    right:73px;
+    top:0px;
+    border-right:1px solid #000000;
+}
+#header .headSearch img{
+    width:30px;
+    height:30px;
+}
+#header_2 {
+    height: 124px;
+    position: relative;
+    display: none;
+}
+#header_2:after{
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0,.1);
+    top:124px;
+    height:1px;
+    width:100%;
+}
+#header_2 .logo{
+    flex:2;
+    /*margin:0 auto;*/
+    text-align: center;
+    float: left;
+
+}
+#header_2 .logo img{
+
+    width: 4rem;
+
+}
+#header_2 .name{
+    flex:2;
+    float: center;
+}
+#header_2 .name p{
+    font-size:2rem;
+    font-weight: bold;
+    color: #000;
+}
+#header_2 .menu{
+    flex:1;
+    float: right;
+    display: block;
+    /*position: relative;*/
+    /*text-align: right;*/
+    margin-right:-5rem;
+}
+#header_2 .menu img{
+    width:3rem;
+    /*position: absolute;*/
+    /*right:30px;*/
+}
+
+
+
+@media screen and (max-width:992px){
+    #header{
+        display: none;
+    }
+    #header_2{
+        display: block;
+        width:100%;
+    }
+}
