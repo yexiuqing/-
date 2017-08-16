@@ -40,14 +40,14 @@
                      <!--  <div class="article-img"><img src="static/images/shenxiang.jpg" alt="" ></div> -->
                      <div class="article-img"><img :src='"static/"+elem.image' alt="" ></div>
                     <p>{{elem.titleContent}}</p>
-                </div>                </div>
-                
+                </div>
+
                 <!-- <div class="loading" v-show="show">
                     <span><img src="static/images/more.gif"></span>
                 </div> -->
             </div>
         </div>
-    </div> 
+    </div>
   </div>
 </template>
 
@@ -57,14 +57,24 @@ export default {
   name: 'hello',
   data () {
     return {
-      blogData:[]
+      blogData:[],
+      user_info:{},
+      user_id:"1"
     }
   },
   mounted(){
       Axios.get('static/blog-data.json').then((res)=>{
         this.blogData=res.data.BlogData.list;
-        console.log(res.data.BlogData.list);
+//        console.log(res.data.BlogData.list);
       });
+     Axios.get('http://127.0.0.1:3000/get_info',{
+         params:{
+             user_id:this.user_id
+         }
+     }).then((res)=>{
+         this.user_info=JSON.parse(res.data);
+         console.log(this.user_info);
+     })
     }
 }
 </script>

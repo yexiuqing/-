@@ -12,8 +12,8 @@
                 <div class="headNav">
                     <ul>
                         <li>博客</li>
-                        <li>关于我</li>
-                        <li>联系我</li>
+                        <router-link to="/about_me"><li>关于我</li></router-link>
+                        <router-link to="/tel"><li>联系我</li></router-link>
                     </ul>
                 </div>
                 <div class="headSearch">
