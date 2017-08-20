@@ -27,14 +27,14 @@ export default {
 
 <style scoped>
   #header{
-    height: 1.3rem;
+    height: 1rem;
     margin-top: .1rem;
     position: relative;
 
   }
   #header .image{
-    width: 1.0rem;
-    height: 1.0rem;
+    width: 0.8rem;
+    height: 0.8rem;
     position: absolute;
     top: .02rem;
     left: 3.5rem;
@@ -43,23 +43,23 @@ export default {
     background-position: -10px -95px;
     border-radius: 50%;
   }
-  #header .name,.occupation{
+  #header .name, #header .occupation{
     position: absolute;
-    top: 1.03rem;
-    left: 3.85rem;
+    top: 0.85rem;
+    left: 3.55rem;
     font-size: .1rem;
     color: #fff;
     font-family: "行楷";
 
   }
   #header .occupation{
-    top: 1.17rem;
+    top: 0.85rem;
     font-size: .1rem;
-    left: 3.65rem;
+    left: 3.95rem;
   }
   #header .skill{
     position: absolute;
-    top: .3rem;
+    top: .11rem;
     left: .2rem;
   }
   #header .skill p{

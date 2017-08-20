@@ -25,7 +25,7 @@ export default {
 	width:4.2rem;
 	background: pink;
 	position: absolute;
-	top: 1.5rem;
+	top: 1.15rem;
 	left: 1.4rem;
 }
 </style>
