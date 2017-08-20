@@ -1,30 +1,16 @@
 <template>
-  <div class="header-page">
-    <div id="header">
-            <div class="wrapper">
-                <div class="logo">
-                    <img src="static/images/balloon.png" alt="">
-                    <div class="name">
-                        <p class="alisa">Alisa's</p>
-                        <p class="blog">Blog</p>
-                    </div>
-                </div>
-                <div class="headNav">
-                    <ul>
-                        <li>博客</li>
-                        <router-link to="/about_me"><li>关于我</li></router-link>
-                        <router-link to="/tel"><li>联系我</li></router-link>
-                    </ul>
-                </div>
-                <div class="headSearch">
-                    <input type="text">
-                    <div class="image">
-                        <img src="static/images/serch.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-  </div>
+  <div id="header" class="wrapper">
+    <div class="image"></div>
+    <span class="name">叶秀青</span>
+    <span class="occupation">Web前端工程师</span>
+    <div class="skill">
+      <p>1、掌握HTML/CSS/w3c和ES6标准以及HTML语义化，完成较为复杂的布局</p>
+      <p>2、掌握原生JavaScript</p>
+      <p>3、掌握并熟练使用vue语法以及框架</p>
+      <p>4、能够使用PHP语言+mysql语句对数据进行增删改查</p>
+      <p>5、具有良好的团队合作性</p>
+    </div>
+  </div> 
 </template>
 
 <script>
@@ -38,118 +24,46 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
-.header-page{
-    width:66rem;
-    height:124px;
-    position: relative;
-    left:50%;
-    margin-left:-33rem;
-    background: #fff;
-
-
-
-}
-	#header {
-    height: 124px;
+  #header{
+    height: 1.3rem;
+    margin-top: .1rem;
     position: relative;
 
-    /*display: none;*/
-}
-/*#header:after{
-    content: '';
+  }
+  #header .image{
+    width: 1.0rem;
+    height: 1.0rem;
     position: absolute;
-    background: rgba(0,0,0,.1);
-    top:124px;
-    height:1px;
-    width:100%;
-
-}*/
-
-#header .logo{
-    float: left;
-    flex:1;
-    -webkit-box-flex: 1;
-
-}
-#header .logo img{
-    width: 4rem;
-    float: left;
-    margin-right: 15px;
-
-}
-#header .logo p{
-    font-size: 1.7rem;
-    font-weight: bold;
-}
-#header .logo .alisa{
-    margin-top:18px;
-}
-#header .headNav{
-    flex:2;
-    margin:0 auto;
-    position: relative;
-
-
-}
-#header .headNav ul{
-
-    width:340px;
-    height:38px;
-    line-height:38px;
-}
-#header .headNav ul:before,#header .headNav ul:after{
-    content:'';
+    top: .02rem;
+    left: 3.5rem;
+    margin: 0 auto;
+    background: url("../../static/images/user.jpg") no-repeat ;
+    background-position: -10px -95px;
+    border-radius: 50%;
+  }
+  #header .name,.occupation{
     position: absolute;
-    background: rgba(0,0,0,.2);
-    height:1px;
-    width:370px;
+    top: 1.03rem;
+    left: 3.85rem;
+    font-size: .1rem;
+    color: #fff;
+    font-family: "行楷";
 
-}
-#header .headNav ul:before{
-    top:0px;
-
-}
-#header .headNav ul:after{
-    top:38px;
-    left: 0px;
-}
-#header .headNav li{
-    float: left;
-    margin-right:68px;
-}
-#header .headNav li:first-child{
-    margin-left: 45px;
-}
-#header .headNav li:last-child{
-    margin-right: 0px;
-}
-#header .headSearch{
-    flex:1;
-    float: right;
-    /*margin-right: 20px;*/
-    position: relative;
-}
-#header .headSearch input{
-    width:145px;
-    height:25px;
-    padding:5px 10px;
-    border-top:1px solid #000000;
-    border-left:1px solid #000000;
-    border-bottom:1px solid #000000;
-}
-#header .headSearch .image{
-    width: 36px;
-    height: 36px;
-    background: #666;
+  }
+  #header .occupation{
+    top: 1.17rem;
+    font-size: .1rem;
+    left: 3.65rem;
+  }
+  #header .skill{
     position: absolute;
-    right:80px;
-    top:1px;
-    border-right:1px solid #000000;
-}
-#header .headSearch img{
-    width:30px;
-    height:30px;
-}
+    top: .3rem;
+    left: .2rem;
+  }
+  #header .skill p{
+    font-size: .09rem;
+    color: #fff;
+  }
 </style>
