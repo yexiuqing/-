@@ -1,6 +1,6 @@
 <template>
   <div id="page">
-    
+
   </div>
 </template>
 
@@ -10,11 +10,11 @@ export default {
   name: 'hello',
   data () {
     return {
-      
+
     }
   },
   mounted(){
-     
+
   }
 }
 </script>
@@ -23,9 +23,10 @@ export default {
 #page{
 	height: 3.8rem;
 	width:4.2rem;
-	background: pink;
+	background: #fff;
 	position: absolute;
 	top: 1.15rem;
 	left: 1.4rem;
+  border: .05rem solid #aed7dd;
 }
 </style>
