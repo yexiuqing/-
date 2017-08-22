@@ -12,23 +12,23 @@
             <span class="list">叶秀青</span>
           </li>
           <li class="detail">
-            <span class="glyphicon glyphicon-user">姓名</span>
+            <span class="glyphicon glyphicon-data">生日</span>
             <span class="list">叶秀青</span>
           </li>
           <li class="detail">
-            <span class="glyphicon glyphicon-user">姓名</span>
+            <span class="glyphicon glyphicon-user">学校</span>
             <span class="list">叶秀青</span>
           </li>
           <li class="detail">
-            <span class="glyphicon glyphicon-user">姓名</span>
+            <span class="glyphicon glyphicon-user">联系方式</span>
             <span class="list">叶秀青</span>
           </li>
           <li class="detail">
-            <span class="glyphicon glyphicon-user">姓名</span>
+            <span class="glyphicon glyphicon-user"></span>
             <span class="list">叶秀青</span>
           </li>
           <li class="detail">
-            <span class="glyphicon glyphicon-user">姓名</span>
+            <span class="glyphicon glyphicon-user">git-mail</span>
             <span class="list">叶秀青</span>
           </li>
         </ul>
