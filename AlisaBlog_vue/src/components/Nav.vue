@@ -37,12 +37,12 @@ export default {
 		position: absolute;
 		left: .8rem;
 		top: 1.15rem;
-		background: #aed7dd;
+		background: rgba(174, 215, 221, 0.79);
 	}
 	#nav li{
 		height: .5rem;
 		width: .5rem;
-		background: #aed7dd;
+		background: rgba(174, 215, 221, 0.79);
 		border-bottom: 1px solid #fff;
 	}
 	#nav .select{

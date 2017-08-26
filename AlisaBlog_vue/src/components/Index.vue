@@ -8,28 +8,28 @@
       <div class="contentL">
         <ul>
           <li class="detail">
-            <span class="glyphicon glyphicon-user">姓名</span>
-            <span class="list">叶秀青</span>
+            <span class="glyphicon glyphicon-user"></span>
+            <span class="list">中共预备党员</span>
           </li>
           <li class="detail">
             <span class="glyphicon glyphicon-data">生日</span>
-            <span class="list">叶秀青</span>
+            <span class="list">1995.01,07</span>
           </li>
           <li class="detail">
             <span class="glyphicon glyphicon-user">学校</span>
-            <span class="list">叶秀青</span>
+            <span class="list">黑龙江大学</span>
           </li>
           <li class="detail">
             <span class="glyphicon glyphicon-user">联系方式</span>
-            <span class="list">叶秀青</span>
+            <span class="list">13104013181</span>
           </li>
           <li class="detail">
-            <span class="glyphicon glyphicon-user"></span>
-            <span class="list">叶秀青</span>
+            <span class="glyphicon glyphicon-wechat">微信</span>
+            <span class="list">1124934298</span>
           </li>
           <li class="detail">
-            <span class="glyphicon glyphicon-user">git-mail</span>
-            <span class="list">叶秀青</span>
+            <span class="glyphicon glyphicon-user">邮件</span>
+            <span class="list">xiuqing_ye@126.com</span>
           </li>
         </ul>
 
