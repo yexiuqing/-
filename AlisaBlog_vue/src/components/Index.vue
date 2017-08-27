@@ -30,6 +30,7 @@
           <li class="detail">
             <span class="glyphicon glyphicon-user">邮件</span>
             <span class="list">xiuqing_ye@126.com</span>
+
           </li>
         </ul>
 
