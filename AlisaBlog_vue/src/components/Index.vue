@@ -63,6 +63,7 @@ export default {
 	width:4.2rem;
 	background: #fff;
 	position: absolute;
+
 	top: 1.15rem;
 	left: 1.4rem;
   border: .05rem solid #aed7dd;
@@ -72,6 +73,7 @@ export default {
     height:.5rem;
     border-bottom: .001rem solid #eee;
     line-height:.25rem;
+
     font-size:.1rem;
     color: #888;
     overflow: hidden;
