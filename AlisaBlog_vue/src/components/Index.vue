@@ -83,6 +83,7 @@ export default {
   }
   #page .content{
     display: flex;
+
   }
   #page .contentL{
     position: relative;
@@ -92,6 +93,7 @@ export default {
 
   #page .nameTop{
     height:.25rem;
+
     border-bottom: .001rem solid #eee;
     color: #aed7dd;
   }
