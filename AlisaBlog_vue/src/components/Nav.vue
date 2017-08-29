@@ -13,7 +13,7 @@ export default {
   name: 'nav',
   data () {
     return {
-      
+
     }
   },
   mounted(){
@@ -22,12 +22,13 @@ export default {
 		$(this).addClass("select")
 	})
 	$("li").on('mouseout',function(){
-		$(this).find('span').removeClass("active");
+		$(this).find('span').removeClass("active")
+
 		$(this).removeClass("select");
-	})  
+	})
   }
 }
-	
+
 </script>
 
 <style scoped>
@@ -52,7 +53,7 @@ export default {
 		font-size: .2rem;
 		color: #fff;
 		margin-left: .15rem;
-		margin-top:.15rem; 
+		margin-top:.15rem;
 	}
 	#nav  span.active{
 		color: #aed7dd;
