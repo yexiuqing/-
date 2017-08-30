@@ -19,6 +19,8 @@ export default {
   mounted(){
     $("li").on('mouseover',function(){
 		$(this).find('span').addClass('active')
+
+
 		$(this).addClass("select")
 	})
 	$("li").on('mouseout',function(){
