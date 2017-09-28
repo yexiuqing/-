@@ -1,5 +1,5 @@
 <template>
-	<ul id="nav">
+	<ul id="nav" >
 		<router-link to="/"><li ><span class="glyphicon glyphicon-user" ></span></li></router-link>
 		<router-link to="/show"><li><span class="glyphicon glyphicon-tasks" ></span></li></router-link>
 		<router-link to="blog"><li><span class="glyphicon glyphicon-bold" ></span></li></router-link>
@@ -35,18 +35,17 @@ export default {
 
 <style scoped>
 	#nav{
-		width: .5rem;
-		height: 2rem;
+    flex:1;
 		position: absolute;
-		left: .8rem;
-		top: 1.15rem;
+		left: .6rem;
+		top: .3rem;
 		background: rgba(174, 215, 221, 0.79);
 	}
 	#nav li{
-		height: .5rem;
-		width: .5rem;
+		height: .35rem;
+		/*width: .5rem;*/
 		background: rgba(174, 215, 221, 0.79);
-		border-bottom: 1px solid #fff;
+		border-bottom: 2px solid #fff;
 	}
 	#nav .select{
 		background: #fff;
@@ -54,8 +53,7 @@ export default {
 	#nav .glyphicon{
 		font-size: .2rem;
 		color: #fff;
-		margin-left: .15rem;
-		margin-top:.15rem;
+		margin: .05rem .05rem;
 	}
 	#nav  span.active{
 		color: #aed7dd;

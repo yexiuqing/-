@@ -1,6 +1,6 @@
 <template>
 	<div id="blog">
-		<div data-spy="scroll" data-target="#navbar-example" data-offset="0"style="height:3.7rem;overflow:auto; position: relative;" class="content">
+		<div data-spy="scroll" data-target="#navbar-example" data-offset="0"style="height:95%;overflow:auto; position: relative;" class="content">
 		   <div class="right-content" v-for="elem in blogData">
         <h2 class="article-title">{{elem.title}}</h2>
         <span>发布日期：{{elem.date}}</span>
@@ -8,7 +8,7 @@
          <!--  <div class="article-img"><img src="static/images/shenxiang.jpg" alt="" ></div> -->
          <div class="article-img"><img :src='"static/"+elem.image' alt="" ></div>
         <p>{{elem.titleContent}}</p>
-    	</div> 
+    	</div>
 		</div>
 	</div>
 </template>
@@ -19,7 +19,7 @@ export default {
   data () {
     return {
       blogData:[],
-     
+
     }
   },
   mounted(){
@@ -32,18 +32,20 @@ export default {
 </script>
 <style scoped>
 	#blog{
-		height: 3.8rem;
-		width:4.2rem;
+    /*flex:5;*/
+		height: 3rem;
+		/*width:4.2rem;*/
+    width:57.5%;
 		background: #fff;
 		position: absolute;
-		top: 1.15rem;
-		left: 1.4rem;
+		top: .3rem;
+		left: 1rem;
 		border: .05rem solid #aed7dd;
 
 	}
 .right-content{
     float: left;
-    width: 63%;
+    width: 83%;
     margin-left:.3rem;
 
 }

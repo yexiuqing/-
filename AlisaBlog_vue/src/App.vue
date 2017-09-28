@@ -1,10 +1,11 @@
 <template>
-  <div id="app">
-    <v-header></v-header>
-    <transition name="slide-fade">
-    <router-view></router-view>
-    </transition>
+  <div id="app" class="wrapper">
     <v-nav></v-nav>
+    <transition name="slide-fade">
+      <router-view></router-view>
+    </transition>
+    <v-header></v-header>
+
   </div>
 </template>
 
@@ -23,14 +24,14 @@ export default {
 
 <style>
 .slide-fade-enter-active {
-  transition: all .6s ease;
+  transition: all 1s ease;
 }
 .slide-fade-leave-active {
-  transition: all .6s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  transition: all 1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
 }
 .slide-fade-enter, .slide-fade-leave-to
 /* .slide-fade-leave-active below version 2.1.8 */ {
-  transform: translateX(10px);
+  transform: translateX(15px);
   opacity: 0;
 }
 

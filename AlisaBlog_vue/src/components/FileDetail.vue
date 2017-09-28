@@ -1,7 +1,7 @@
 <template>
   <div id="file-detail">
 		<!-- <nav id="navbar-example" class="navbar navbar-default navbar-static" role="navigation">
-	    <div class="container-fluid"> 
+	    <div class="container-fluid">
 		    <div class="navbar-header">
 		        <button class="navbar-toggle" type="button" data-toggle="collapse"
 		                data-target=".bs-js-navbar-scrollspy">
@@ -31,10 +31,10 @@
 		            </li>
 		        </ul>
 		    </div>
-	    </div> 
+	    </div>
 		</nav> -->
 		<div data-spy="scroll" data-target="#navbar-example" data-offset="0"style="height:200px;overflow:auto; position: relative;">
-		    
+
 
 		</div>
   </div>
@@ -44,12 +44,13 @@
 </script>
 <style scoped>
 	#file-detail{
-		height: 3.8rem;
-		width:4.2rem;
-		background: #fff;
-		position: absolute;
-		top: 1.15rem;
-		left: 1.4rem;
-		border: .05rem solid #aed7dd;
+    height: 3rem;
+    /*width:4.2rem;*/
+    width:57.5%;
+    background: #fff;
+    position: absolute;
+    top: .3rem;
+    left: 1rem;
+    border: .05rem solid #aed7dd;
 	}
 </style>

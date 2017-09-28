@@ -59,15 +59,14 @@ export default {
 
 <style scoped>
 #page{
-	height: 3.8rem;
-	width:4.2rem;
-	background: #fff;
-	position: absolute;
-
-	top: 1.15rem;
-	left: 1.4rem;
+  height: 3rem;
+  /*width:4.2rem;*/
+  width:57.5%;
+  background: #fff;
+  position: absolute;
+  top: .3rem;
+  left: 1rem;
   border: .05rem solid #aed7dd;
-  padding:0 .07rem;
 }
   #page .head{
     height:.5rem;

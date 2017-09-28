@@ -1,5 +1,5 @@
 <template>
-  <div id="header" class="wrapper">
+  <div id="header" >
     <div class="image"></div>
     <span class="name">叶秀青</span>
     <span class="occupation">Web前端工程师</span>
@@ -10,7 +10,7 @@
       <p>4、能够使用PHP语言+mysql语句对数据进行增删改查</p>
       <p>5、具有良好的团队合作性</p>
     </div>
-  </div> 
+  </div>
 </template>
 
 <script>
@@ -27,43 +27,46 @@ export default {
 
 <style scoped>
   #header{
-    height: 1rem;
-    margin-top: .1rem;
+    height: 3rem;
+    width: 18%;
     position: relative;
+    right:-4.29rem;
+    top:.3rem;
+    background: rgba(174, 215, 221, 0.79);
 
   }
-  #header .image{
-    width: 0.8rem;
-    height: 0.8rem;
-    position: absolute;
-    top: .02rem;
-    left: 3.5rem;
-    margin: 0 auto;
-    background: url("../../static/images/user.jpg") no-repeat ;
-    background-position: -10px -95px;
-    border-radius: 50%;
-  }
-  #header .name, #header .occupation{
-    position: absolute;
-    top: 0.85rem;
-    left: 3.55rem;
-    font-size: .1rem;
-    color: #fff;
-    font-family: "行楷";
+  /*#header .image{*/
+    /*width: 0.8rem;*/
+    /*height: 0.8rem;*/
+    /*position: absolute;*/
+    /*top: .02rem;*/
+    /*left: 3.5rem;*/
+    /*margin: 0 auto;*/
+    /*background: url("../../static/images/user.jpg") no-repeat ;*/
+    /*background-position: -10px -95px;*/
+    /*border-radius: 50%;*/
+  /*}*/
+  /*#header .name, #header .occupation{*/
+    /*position: absolute;*/
+    /*top: 0.85rem;*/
+    /*left: 3.55rem;*/
+    /*font-size: .1rem;*/
+    /*color: #fff;*/
+    /*font-family: "行楷";*/
 
-  }
-  #header .occupation{
-    top: 0.85rem;
-    font-size: .1rem;
-    left: 3.95rem;
-  }
-  #header .skill{
-    position: absolute;
-    top: .11rem;
-    left: .2rem;
-  }
-  #header .skill p{
-    font-size: .09rem;
-    color: #fff;
-  }
+  /*}*/
+  /*#header .occupation{*/
+    /*top: 0.85rem;*/
+    /*font-size: .1rem;*/
+    /*left: 3.95rem;*/
+  /*}*/
+  /*#header .skill{*/
+    /*position: absolute;*/
+    /*top: .11rem;*/
+    /*left: .2rem;*/
+  /*}*/
+  /*#header .skill p{*/
+    /*font-size: .09rem;*/
+    /*color: #fff;*/
+  /*}*/
 </style>

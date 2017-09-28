@@ -8,12 +8,13 @@
 </script>
 <style>
   #tel{
-    height: 3.8rem;
-    width:4.2rem;
+    height: 3rem;
+    /*width:4.2rem;*/
+    width:57.5%;
     background: #fff;
     position: absolute;
-    top: 1.15rem;
-    left: 1.4rem;
+    top: .3rem;
+    left: 1rem;
     border: .05rem solid #aed7dd;
   }
 </style>
