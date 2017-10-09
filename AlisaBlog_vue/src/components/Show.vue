@@ -1,5 +1,9 @@
 <template>
-  <div id="tel">
+  <div id="show">
+    <ul class="head">
+      <li class="person"> + 我的--技能水平</li>
+      <li class="nameTop">叶秀青</li>
+    </ul>
 
   </div>
 </template>
@@ -7,7 +11,8 @@
 
 </script>
 <style>
-  #tel{
+  #show{
+    padding:10px 10px;
     height: 3rem;
     /*width:4.2rem;*/
     width:57.5%;
@@ -16,5 +21,14 @@
     top: .3rem;
     left: 1rem;
     border: .05rem solid #aed7dd;
+  }
+  #show .head{
+    height:.5rem;
+    border-bottom: .001rem solid #eee;
+    line-height:.25rem;
+
+    font-size:.1rem;
+    color: #888;
+    overflow: hidden;
   }
 </style>

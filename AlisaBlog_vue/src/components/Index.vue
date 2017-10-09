@@ -59,6 +59,7 @@ export default {
 
 <style scoped>
 #page{
+  padding:10px 10px;
   height: 3rem;
   /*width:4.2rem;*/
   width:57.5%;
